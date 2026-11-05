@@ -27,3 +27,4 @@ Catalog: https://akirinsolutions.github.io/AIPUBLISHREPO/
 | w52hairnails | https://akirinsolutions.github.io/AIPUBLISHREPO/w52hairnails/ |
 | wendycharlottemakeup | https://akirinsolutions.github.io/AIPUBLISHREPO/wendycharlottemakeup/ |
 | zankihair | https://akirinsolutions.github.io/AIPUBLISHREPO/zankihair/ |
+| quickshinecleaning (demo) | https://akirinsolutions.github.io/AIPUBLISHREPO/quickshinecleaning/ |

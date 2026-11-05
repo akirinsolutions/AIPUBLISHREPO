@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="閃速清潔係一間小型家庭清潔公司，專做深度清潔同定期保養。自己人上門，唔轉包。歡迎 WhatsApp 免費報價。" data-en="QuickShine is a small residential cleaning team specialising in deep cleans and regular maintenance. Our own staff, never subcontracted. WhatsApp for a free quote." data-zh="閃速清潔係一間小型家庭清潔公司，專做深度清潔同定期保養。自己人上門，唔轉包。歡迎 WhatsApp 免費報價。">
+        <meta name="author" content="" />
+        <title data-en="QuickShine Cleaning | Residential Deep Clean" data-zh="閃速清潔 | 家庭深度清潔服務">閃速清潔 | 家庭深度清潔服務</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="css/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    <style>
+/* Language gate — shared bilingual overlay. Namespaced lg-* to avoid template collisions. */
+.lg-overlay {
+  position: fixed; inset: 0; z-index: 100000;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(12, 10, 8, 0.62);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  opacity: 0; visibility: hidden;
+  transition: opacity .3s ease, visibility .3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "Noto Sans HK", Roboto, sans-serif;
+}
+.lg-overlay.lg-show { opacity: 1; visibility: visible; }
+.lg-card {
+  background: #fff; color: #1a1a1a;
+  border-radius: 18px;
+  box-shadow: 0 30px 80px rgba(0,0,0,.35);
+  padding: 44px 48px 36px;
+  width: min(92vw, 420px);
+  text-align: center;
+  transform: translateY(14px) scale(.98);
+  transition: transform .3s cubic-bezier(.2,.9,.3,1.2);
+}
+.lg-overlay.lg-show .lg-card { transform: translateY(0) scale(1); }
+.lg-welcome { font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: #999; margin-bottom: 10px; }
+.lg-name { font-size: 30px; font-weight: 800; line-height: 1.2; margin-bottom: 6px; }
+.lg-name-en { font-size: 14px; color: #8a8a8a; margin-bottom: 26px; font-weight: 500; }
+.lg-choose { font-size: 15px; color: #555; margin-bottom: 18px; }
+.lg-choose .zh { font-weight: 700; color: #1a1a1a; }
+.lg-buttons { display: flex; gap: 12px; }
+.lg-btn {
+  flex: 1; border: 0; cursor: pointer; border-radius: 12px;
+  padding: 15px 10px; font-size: 16px; font-weight: 700;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  font-family: inherit;
+}
+.lg-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,.14); }
+.lg-btn:active { transform: translateY(0); }
+.lg-btn-zh { background: #1a1a1a; color: #fff; }
+.lg-btn-en { background: #f0efed; color: #1a1a1a; }
+.lg-btn-sub { display: block; font-size: 11px; font-weight: 500; opacity: .65; margin-top: 3px; }
+.lg-skip {
+  display: inline-block; margin-top: 20px; font-size: 12.5px; color: #aaa;
+  text-decoration: underline; text-underline-offset: 3px; cursor: pointer; background: none; border: 0;
+}
+.lg-skip:hover { color: #666; }
+/* floating switcher pill (appears after a choice) */
+.lg-switch {
+  position: fixed; top: 14px; right: 14px; z-index: 99999;
+  display: none; align-items: center; gap: 2px;
+  /* explicit width: if this fixed pill ever lands inside a Bootstrap .row
+     (unclosed template div), `.row > * { width: 100% }` would stretch it into
+     a full-width dark bar across the top of the page */
+  width: max-content; max-width: calc(100vw - 28px); box-sizing: border-box;
+  background: rgba(20,18,16,.82); backdrop-filter: blur(8px);
+  border-radius: 999px; padding: 4px;
+  font-size: 12.5px; font-weight: 700;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+}
+.lg-switch.lg-on { display: flex; }
+.lg-switch button {
+  border: 0; background: transparent; color: #cfcac4; cursor: pointer;
+  padding: 6px 12px; border-radius: 999px; font-size: 12.5px; font-weight: 700; font-family: inherit;
+  transition: background .15s, color .15s;
+}
+.lg-switch button.lg-active { background: #fff; color: #1a1a1a; }
+.lg-switch .lg-sep { width: 1px; height: 16px; background: rgba(255,255,255,.25); }
+/* small screens: some shells pin a menu button at the top-right — drop the
+   pill to the bottom so the menu stays tappable (they would overlap) */
+@media (max-width: 767px) {
+  .lg-switch { top: auto; bottom: 16px; right: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lg-overlay, .lg-card, .lg-btn, .lg-switch button { transition: none !important; }
+}
+
+</style>
+</head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span data-en="QuickShine Cleaning" data-zh="閃速清潔">閃速清潔</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html"><span data-en="Home" data-zh="首頁">首頁</span></a></li>
+                            
+                            <li class="nav-item"><a class="nav-link" href="#contact"><span data-en="Contact" data-zh="聯絡我哋">聯絡我哋</span></a></li>
+                            
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="bg-dark py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2"><span data-en="A Spotless Home, Hands-Free" data-zh="整潔，唔使自己郁手">整潔，唔使自己郁手</span></h1>
+                                <p class="lead fw-normal text-white-50 mb-4"><span data-en="We&#x27;re a small residential cleaning team specialising in deep cleans and regular maintenance. Our own staff, never subcontracted, and you only pay when it&#x27;s done." data-zh="我哋係一間小型家庭清潔公司，專做深度清潔同定期保養。自己人上門，唔轉包，每次做完先收錢。">我哋係一間小型家庭清潔公司，專做深度清潔同定期保養。自己人上門，唔轉包，每次做完先收錢。</span></p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features"><span data-en="Free Quote" data-zh="免費報價">免費報價</span></a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="https://wa.me/85225558800" target="_blank" rel="noopener"><span data-en="Chat on WhatsApp" data-zh="WhatsApp 查詢">WhatsApp 查詢</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="images/hero-clean.svg" alt="..." /></div>
+                    </div>
+                </div>
+            </header>
+            <!-- Features section-->
+            <section class="py-5" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0"><span data-en="Why Choose Us" data-zh="點解揀我哋">點解揀我哋</span></h2></div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                                    <h2 class="h5"><span data-en="Eco Products" data-zh="環保產品">環保產品</span></h2>
+                                    <p class="mb-0"><span data-en="Degradable products only — safe for kids and pets." data-zh="全線使用可降解清潔劑，對細路同毛孩都安全。">全線使用可降解清潔劑，對細路同毛孩都安全。</span></p>
+                                </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                                    <h2 class="h5"><span data-en="Recurring Visits" data-zh="定期預約">定期預約</span></h2>
+                                    <p class="mb-0"><span data-en="Weekly, fortnightly or monthly — rearrange with one WhatsApp message." data-zh="每週、每兩週或者每月，你想點排就點排，想改期 WhatsApp 一句就得。">每週、每兩週或者每月，你想點排就點排，想改期 WhatsApp 一句就得。</span></p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5"><span data-en="Fully Insured" data-zh="保險齊備">保險齊備</span></h2>
+                                    <p class="mb-0"><span data-en="Every visit is covered by public liability insurance." data-zh="每次上門都有公眾賠償保險，屋企嘢有損照賠。">每次上門都有公眾賠償保險，屋企嘢有損照賠。</span></p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5"><span data-en="Pay After Approval" data-zh="驗收先收錢">驗收先收錢</span></h2>
+                                    <p class="mb-0"><span data-en="Inspect first, pay after — we redo anything you&#x27;re not happy with." data-zh="做完先驗，唔滿意即時返工，先至收錢。">做完先驗，唔滿意即時返工，先至收錢。</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial section-->
+            <div class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic"><span data-en="Three visits so far and the flat looks brand new each time. May is always punctual." data-zh="請咗三次，次次都乾淨到好似新屋。阿May 好準時。">請咗三次，次次都乾淨到好似新屋。阿May 好準時。</span></div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img class="rounded-circle me-3" src="images/avatar.svg" alt="..." />
+                                    <div class="fw-bold">
+                                        <span data-en="Mrs. Ho" data-zh="何太">何太</span>
+                                        <span class="fw-bold text-primary mx-1">/</span>
+                                        <span data-en="Causeway Bay flat" data-zh="銅鑼灣住宅">銅鑼灣住宅</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog preview section-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    
+                    
+                    <!-- Call to action-->
+                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5" id="contact">
+                            <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                                <div class="mb-4 mb-xl-0">
+                                    <div class="fs-3 fw-bold text-white"><span data-en="Free Quote" data-zh="免費報價">免費報價</span></div>
+                                    <div class="text-white-50"><span data-en="Tell us the size of your place and how often you&#x27;d like visits; we reply within one working day." data-zh="話我哋知你屋企幾大、想幾日做一次，一個工作天內回覆。">話我哋知你屋企幾大、想幾日做一次，一個工作天內回覆。</span></div>
+                                </div>
+                                <div class="ms-xl-4 d-grid gap-2 d-sm-flex">
+                                    <a class="btn btn-outline-light" href="https://wa.me/85225558800" target="_blank" rel="noopener"><span data-en="Chat on WhatsApp" data-zh="WhatsApp 查詢">WhatsApp 查詢</span></a>
+                                    <a class="btn btn-outline-light" href="tel:+85225558800"><span data-en="Call us" data-zh="致電我哋">致電我哋</span></a>
+                                    <a class="btn btn-outline-light" href="mailto:hi@quickshine.hk"><span data-en="Email us" data-zh="電郵我哋">電郵我哋</span></a>
+                                </div>
+                            </div>
+                        </aside>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white"><span data-en="© 2026 QuickShine Cleaning. All rights reserved." data-zh="© 2026 閃速清潔 版權所有。">© 2026 閃速清潔 版權所有。</span> <br><span style="font-size:12px;opacity:.78">Demo preview — not a real company site.</span></div></div>
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    <!-- Language gate: asks Cantonese or English on landing. Injected by bilingualizer. -->
+<div class="lg-overlay" id="lgOverlay" role="dialog" aria-modal="true" aria-labelledby="lgName">
+  <div class="lg-card">
+    <p class="lg-welcome">Welcome</p>
+    <p class="lg-name" id="lgName">閃速清潔</p>
+    <p class="lg-name-en" id="lgNameEn">QuickShine Cleaning</p>
+    <p class="lg-choose">請選擇語言 <span class="zh">/</span> Choose your language</p>
+    <div class="lg-buttons">
+      <button class="lg-btn lg-btn-zh" data-lang="zh" type="button">
+        廣東話
+        <span class="lg-btn-sub">Cantonese</span>
+      </button>
+      <button class="lg-btn lg-btn-en" data-lang="en" type="button">
+        English
+        <span class="lg-btn-sub">英文</span>
+      </button>
+    </div>
+    <button class="lg-skip" data-lang="zh" type="button">跳過 Skip — 以廣東話繼續 continue in Cantonese</button>
+  </div>
+</div>
+<div class="lg-switch" id="lgSwitch" aria-label="Language switcher">
+  <button type="button" data-lang="en" id="lgSwEn">EN</button>
+  <span class="lg-sep" aria-hidden="true"></span>
+  <button type="button" data-lang="zh" id="lgSwZh">粵</button>
+</div>
+
+<script>
+/* Language gate JS — shared by all shells.
+   Reads data-en / data-zh attributes (applied by bilingualizer).
+   - no saved choice -> show overlay (content behind is Cantonese-first)
+   - choice saved in localStorage "hkbox-lang"
+   - floating EN/粵 switcher afterwards
+   Safe under no-JS: overlay stays hidden (content is Cantonese by default). */
+(function () {
+  'use strict';
+  var KEY = 'hkbox-lang';
+  var overlay = document.getElementById('lgOverlay');
+  var sw = document.getElementById('lgSwitch');
+  var titleEl = document.title ? document.querySelector('title') : null;
+
+  function safeText(el, attr) {
+    var v = el.getAttribute(attr);
+    return (v === null || v === undefined) ? null : v;
+  }
+
+  function applyLang(lang) {
+    var attr = lang === 'en' ? 'data-en' : 'data-zh';
+    var els = document.querySelectorAll('[data-en]');
+    for (var i = 0; i < els.length; i++) {
+      var el = els[i];
+      if (el.children && el.children.length > 0) continue; // fragments only — spans created by bilingualizer
+      var v = safeText(el, attr);
+      if (v !== null && el.textContent !== v) el.textContent = v;
+    }
+    document.documentElement.lang = lang === 'en' ? 'en' : 'zh-HK';
+    // title + meta
+    if (titleEl) {
+      var t = safeText(titleEl, attr);
+      if (t) document.title = t;
+    }
+    var md = document.querySelector('meta[name="description"]');
+    if (md) {
+      var d = safeText(md, attr) || safeText(md, lang === 'en' ? 'content-en' : 'content-zh');
+      if (d) md.setAttribute('content', d);
+    }
+    var og = document.querySelector('meta[property="og:title"]');
+    if (og) { var o = safeText(og, attr); if (o) og.setAttribute('content', o); }
+    // switcher active state
+    var bEn = document.getElementById('lgSwEn'), bZh = document.getElementById('lgSwZh');
+    if (bEn) bEn.classList.toggle('lg-active', lang === 'en');
+    if (bZh) bZh.classList.toggle('lg-active', lang === 'zh');
+  }
+
+  function setLang(lang, save) {
+    if (save !== false) {
+      try { localStorage.setItem(KEY, lang); } catch (e) {}
+    }
+    applyLang(lang);
+    hide();
+  }
+
+  /* Real-time watchdog — both fade directions.
+     CSS transitions run on requestAnimationFrame, which the browser
+     time-warps when this tab is backgrounded (App Nap / hidden tab): the
+     0.3s fade then crawls at ~1/250 speed, leaving the gate frozen
+     semi-transparent (a double-exposed "messed up" page after a language
+     switch) or invisible on first load. Date.now() and setTimeout are NOT
+     time-warped, so we poll with real time and snap the overlay + card to
+     their intended end state the moment the fade is stuck. */
+  var card = overlay ? overlay.querySelector('.lg-card') : null;
+  var settleT0 = 0, settleTimer = null, settleArmed = false;
+
+  function checkSettle() {
+    settleTimer = null;
+    if (!settleArmed || !overlay) return;
+    var on = overlay.classList.contains('lg-show');
+    var op = parseFloat(getComputedStyle(overlay).opacity);
+    if (isNaN(op)) { settleArmed = false; return; } // display:none — settled
+    var diff = on ? 1 - op : op;
+    if (diff <= 0.15) { settleArmed = false; return; } // fade actually completed
+    if (Date.now() - settleT0 > 900) {
+      // fade is stuck (time-warped tab): snap to the intended end state
+      overlay.style.transition = 'none';
+      if (card) card.style.transition = 'none';
+      void overlay.offsetHeight; // commit
+      overlay.style.transition = '';
+      if (card) card.style.transition = '';
+      settleArmed = false;
+      return;
+    }
+    if (Date.now() - settleT0 < 12000) settleTimer = setTimeout(checkSettle, 400);
+    else settleArmed = false;
+  }
+
+  function armSettle() {
+    settleT0 = Date.now();
+    settleArmed = true;
+    if (settleTimer) { try { clearTimeout(settleTimer); } catch (e) {} }
+    settleTimer = setTimeout(checkSettle, 1000);
+  }
+
+  function show() {
+    if (!overlay) return;
+    overlay.classList.add('lg-show');
+    armSettle();
+    if (sw) sw.classList.add('lg-on');
+  }
+  function hide() {
+    if (!overlay) return;
+    overlay.classList.remove('lg-show');
+    armSettle();
+    if (sw) sw.classList.add('lg-on');
+    setTimeout(function () { overlay.style.display = 'none'; }, 500);
+  }
+
+  // user comes back to the tab: restart the real-time window and re-check
+  ['visibilitychange', 'focus', 'pointerdown', 'keydown'].forEach(function (ev) {
+    document.addEventListener(ev, function () {
+      if (!settleArmed) return;
+      settleT0 = Date.now();
+      if (settleTimer) { try { clearTimeout(settleTimer); } catch (e) {} }
+      settleTimer = setTimeout(checkSettle, 1000);
+    }, { passive: true });
+  });
+
+  function init() {
+    var saved = null;
+    try { saved = localStorage.getItem(KEY); } catch (e) {}
+    if (saved === 'en' || saved === 'zh') {
+      applyLang(saved);
+      if (sw) sw.classList.add('lg-on');
+      return;
+    }
+    // first visit: ask
+    show();
+    if (overlay) {
+      overlay.querySelectorAll('button[data-lang]').forEach(function (b) {
+        b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); });
+      });
+      // click backdrop to dismiss = default Cantonese
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) setLang('zh');
+      });
+    }
+    if (sw) {
+      sw.querySelectorAll('button[data-lang]').forEach(function (b) {
+        b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); });
+      });
+    }
+    // keyboard: 1 = en, 2 = zh while gate open
+    document.addEventListener('keydown', function (e) {
+      if (!overlay || !overlay.classList.contains('lg-show')) return;
+      if (e.key === '1') setLang('en');
+      if (e.key === '2') setLang('zh');
+      if (e.key === 'Escape') setLang('zh');
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+
+</script>
+</body>
+</html>
