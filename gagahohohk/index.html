@@ -33,6 +33,7 @@
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
   opacity: 0; visibility: hidden;
   transition: opacity .3s ease, visibility .3s ease;
+  animation: lgFadeIn .28s ease both;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "Noto Sans HK", Roboto, sans-serif;
 }
 .lg-overlay.lg-show { opacity: 1; visibility: visible; }
@@ -46,7 +47,9 @@
   transform: translateY(14px) scale(.98);
   transition: transform .3s cubic-bezier(.2,.9,.3,1.2);
 }
-.lg-overlay.lg-show .lg-card { transform: translateY(0) scale(1); }
+.lg-overlay.lg-show .lg-card { transform: translateY(0) scale(1); animation: lgPop .4s cubic-bezier(.2,.9,.3,1.25) both; }
+@keyframes lgFadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes lgPop { from { opacity: 0; transform: translateY(14px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
 .lg-welcome { font-size: 12px; letter-spacing: .22em; text-transform: uppercase; color: #999; margin-bottom: 10px; }
 .lg-name { font-size: 30px; font-weight: 800; line-height: 1.2; margin-bottom: 6px; }
 .lg-name-en { font-size: 14px; color: #8a8a8a; margin-bottom: 26px; font-weight: 500; }
@@ -82,7 +85,8 @@
   font-size: 12.5px; font-weight: 700;
   box-shadow: 0 6px 20px rgba(0,0,0,.25);
 }
-.lg-switch.lg-on { display: flex; }
+.lg-switch.lg-on { display: flex; animation: lgSwitchIn .32s cubic-bezier(.2,.9,.3,1.25) both; }
+@keyframes lgSwitchIn { from { opacity: 0; transform: translateY(-10px) scale(.85); } to { opacity: 1; transform: translateY(0) scale(1); } }
 .lg-switch button {
   border: 0; background: transparent; color: #cfcac4; cursor: pointer;
   padding: 6px 12px; border-radius: 999px; font-size: 12.5px; font-weight: 700; font-family: inherit;
@@ -96,13 +100,16 @@
   .lg-switch { top: auto; bottom: 16px; right: 14px; }
 }
 @media (prefers-reduced-motion: reduce) {
+  .lg-overlay, .lg-card { animation: none !important; }
+  .lg-overlay.lg-show .lg-card { animation: none !important; }
+  .lg-switch.lg-on { animation: none !important; }
   .lg-overlay, .lg-card, .lg-btn, .lg-switch button { transition: none !important; }
 }
 
 </style>
 </head>
     
-    <body class="theme-casual">
+    <body class="design-korean theme-casual">
     
     <div role="note" style="background:#111;color:#ffe000;font:600 12px/1.45 -apple-system,'PingFang HK',sans-serif;padding:8px 16px;text-align:center;position:relative;z-index:100001">
       非官方概念預覽：HK Website-in-a-Box 為該餐廳製作的示範網站，並非該餐廳官方網站、授權或代言；實際資料請以餐廳官方渠道為準。
@@ -670,6 +677,13 @@
   function init() {
     var saved = null;
     try { saved = localStorage.getItem(KEY); } catch (e) {}
+    // floating switcher listeners must be live for BOTH first-visit and
+    // returning visitors (previously only attached on the first-visit path)
+    if (sw) {
+      sw.querySelectorAll('button[data-lang]').forEach(function (b) {
+        b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); });
+      });
+    }
     if (saved === 'en' || saved === 'zh') {
       applyLang(saved);
       if (sw) sw.classList.add('lg-on');
@@ -684,11 +698,6 @@
       // click backdrop to dismiss = default Cantonese
       overlay.addEventListener('click', function (e) {
         if (e.target === overlay) setLang('zh');
-      });
-    }
-    if (sw) {
-      sw.querySelectorAll('button[data-lang]').forEach(function (b) {
-        b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); });
       });
     }
     // keyboard: 1 = en, 2 = zh while gate open
