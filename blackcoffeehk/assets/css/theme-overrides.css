@@ -179,3 +179,70 @@ body.theme-casual #reservation p { color: #3a2f28 !important; font-size: 16px; l
 body.theme-casual #top .left-content h4,
 body.theme-casual #top .left-content h6 { color: #3e2f24 !important; text-shadow: none; }
 body.theme-casual .main-banner { background: #f0e4d4 !important; }
+
+/* Menu placeholder cards: replace cramped, false-height cards with a calm,
+   readable product tile. The source has no real dish list, so prices and
+   names remain generic. */
+.card {
+  min-height: 390px !important;
+  overflow: hidden !important;
+  border-radius: 16px !important;
+}
+.card1,.card2,.card3,.card4,.card5,.card6 {
+  background-image: none !important;
+}
+.card .price h6 {
+  position: absolute !important;
+  top: 18px;
+  left: 18px;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  padding: 10px 14px !important;
+  background: #fb5849 !important;
+  color: #ffffff !important;
+  line-height: 1 !important;
+  border-radius: 4px !important;
+  letter-spacing: .04em;
+  font-size: 14px !important;
+  text-transform: none;
+  overflow: visible;
+}
+#menu .card .info {
+  position: absolute !important;
+  inset: auto 0 0 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: auto !important;
+  border: 0 !important;
+  padding: 24px 22px 22px !important;
+  background: linear-gradient(180deg, rgba(251,88,73,0) 0%, rgba(251,88,73,.92) 38%, #fb5849 100%) !important;
+  color: #fff !important;
+  transform: none !important;
+}
+#menu .card .info .title,
+#menu .card .info .description { color: #fff !important; }
+#menu .card .info .title { font-size: 24px !important; line-height: 1.2 !important; margin: 64px 0 8px !important; }
+#menu .card .info .description { font-size: 15px !important; line-height: 1.45 !important; opacity: 1 !important; }
+#menu .card .info .main-text-button a { color: #fff !important; text-decoration: underline !important; text-underline-offset: 4px; font-weight: 700; }
+
+body.theme-formal .card,
+body.theme-formal .card1,.card1 {}
+body.theme-formal .card { background: #242019 !important; border: 1px solid #3c352e !important; }
+body.theme-formal .card .price h6 { background: #c8a96b !important; color: #15120f !important; }
+body.theme-formal #menu .card .info,
+body.theme-formal #menu .card .info .title,
+body.theme-formal #menu .card .info .description { color: #f5f0e8 !important; }
+body.theme-formal #menu .card .info { background: linear-gradient(180deg, rgba(36,32,25,0) 0%, rgba(36,32,25,.9) 38%, #242019 100%) !important; }
+
+body.theme-casual .card,
+body.theme-vibrant .card { background: #fffdf7 !important; border: 1px solid #e3d9cb !important; }
+body.theme-casual .card .price h6,
+body.theme-vibrant .card .price h6 { background: #2d6cdf !important; color:#fff !important; }
+body.theme-casual #menu .card .info,
+body.theme-vibrant #menu .card .info { background: linear-gradient(180deg, rgba(45,108,223,0) 0%, rgba(45,108,223,.92) 38%, #2d6cdf 100%) !important; }
+
+body.theme-formal .chef-item img,
+body.theme-vibrant .chef-item img,
+body.theme-casual .chef-item img { object-position: center; }
