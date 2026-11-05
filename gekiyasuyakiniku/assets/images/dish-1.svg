@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 400" width="284" height="400" role="img" aria-label="Claypot bullfrog, smoking hot">
+
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#3d3129"/>
+      <stop offset="0.55" stop-color="#271d18"/>
+      <stop offset="1" stop-color="#140f0c"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53392a"/>
+      <stop offset="1" stop-color="#241610"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="65%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="284" height="400" fill="url(#bg)"/>
+  <path d="M0 296 L284 276 L284 400 L0 400 Z" fill="url(#table)"/>
+  <ellipse cx="142" cy="336" rx="150" ry="66" fill="#000" opacity="0.22"/>
+  <!-- steam -->
+  <g fill="none" stroke="#fff" stroke-linecap="round" opacity="0.13">
+    <path d="M112 186 C100 160 124 148 112 122" stroke-width="7"/>
+    <path d="M142 178 C130 150 154 138 142 110" stroke-width="6"/>
+    <path d="M172 188 C160 162 184 150 172 126" stroke-width="7"/>
+  </g>
+  <g>
+    <ellipse cx="142" cy="268" rx="98" ry="74" fill="#000" opacity="0.28"/>
+    <path d="M44 238 q-18 12 0 26" fill="none" stroke="#5d3322" stroke-width="11" stroke-linecap="round"/>
+    <path d="M240 238 q18 12 0 26" fill="none" stroke="#5d3322" stroke-width="11" stroke-linecap="round"/>
+    <ellipse cx="142" cy="262" rx="97" ry="72" fill="#6d3b27"/>
+    <ellipse cx="142" cy="258" rx="97" ry="70" fill="#7d452d"/>
+    <ellipse cx="120" cy="240" rx="52" ry="34" fill="url(#shine)"/>
+    <ellipse cx="142" cy="213" rx="97" ry="27" fill="#8f4d31"/>
+    <ellipse cx="142" cy="212" rx="84" ry="20" fill="#2c1911"/>
+    <ellipse cx="142" cy="211" rx="76" ry="15" fill="#3a2116"/>
+    <g transform="translate(118 204) rotate(-12)"><rect x="-22.0" y="-13.0" width="44" height="26" rx="10.8" fill="#a4643f"/><rect x="-19.0" y="-11.0" width="38" height="10.0" rx="6.5" fill="#fff" opacity="0.14"/></g>
+<g transform="translate(166 206) rotate(14)"><rect x="-21.0" y="-12.0" width="42" height="24" rx="10.0" fill="#8d4b30"/><rect x="-18.0" y="-10.0" width="36" height="9.2" rx="6.0" fill="#fff" opacity="0.14"/></g>
+<g transform="translate(142 216) rotate(4)"><rect x="-23.0" y="-11.0" width="46" height="22" rx="9.2" fill="#b07046"/><rect x="-20.0" y="-9.0" width="40" height="8.5" rx="5.5" fill="#fff" opacity="0.14"/></g>
+<g transform="translate(96 218) rotate(20)"><rect x="-18.0" y="-10.0" width="36" height="20" rx="8.3" fill="#96512f"/><rect x="-15.0" y="-8.0" width="30" height="7.7" rx="5.0" fill="#fff" opacity="0.14"/></g>
+<g transform="translate(190 220) rotate(-18)"><rect x="-17.0" y="-10.0" width="34" height="20" rx="8.3" fill="#a4643f"/><rect x="-14.0" y="-8.0" width="28" height="7.7" rx="5.0" fill="#fff" opacity="0.14"/></g>
+<g transform="translate(112 200) rotate(-20)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#79a447" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#79a447" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#79a447" opacity="0.71"/></g>
+<g transform="translate(160 198) rotate(12)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#79a447" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#79a447" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#79a447" opacity="0.71"/></g>
+<g transform="translate(196 210) rotate(40)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#79a447" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#79a447" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#79a447" opacity="0.71"/></g>
+<g transform="translate(130 224) rotate(-8)"><path d="M-16 0 q16 -12 32 0 q-16 10 -32 0z" fill="#c8281f"/><path d="M-16 0 q16 -12 32 0" fill="none" stroke="#e8543f" stroke-width="2" opacity="0.7"/></g>
+<g transform="translate(178 222) rotate(10)"><path d="M-16 0 q16 -12 32 0 q-16 10 -32 0z" fill="#c8281f"/><path d="M-16 0 q16 -12 32 0" fill="none" stroke="#e8543f" stroke-width="2" opacity="0.7"/></g>
+  </g>
+  <rect width="284" height="400" fill="url(#vig)"/>
+</svg>

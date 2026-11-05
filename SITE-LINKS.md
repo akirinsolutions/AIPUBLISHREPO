@@ -32,3 +32,4 @@ Catalog: https://akirinsolutions.github.io/AIPUBLISHREPO/
 | gagahohohk (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/gagahohohk/ |
 | hansungkorean (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/hansungkorean/ |
 | thepearlhk (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/thepearlhk/ |
+| gekiyasuyakiniku (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/gekiyasuyakiniku/ |

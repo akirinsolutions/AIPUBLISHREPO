@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 400" width="284" height="400" role="img" aria-label="Warm tofu pudding with cane syrup">
+
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#3d3129"/>
+      <stop offset="0.55" stop-color="#271d18"/>
+      <stop offset="1" stop-color="#140f0c"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53392a"/>
+      <stop offset="1" stop-color="#241610"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="65%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="284" height="400" fill="url(#bg)"/>
+  <path d="M0 296 L284 276 L284 400 L0 400 Z" fill="url(#table)"/>
+  <ellipse cx="142" cy="336" rx="150" ry="66" fill="#000" opacity="0.22"/>
+
+  <g fill="none" stroke="#fff" stroke-linecap="round" opacity="0.13">
+    <path d="M118 200 C110 182 126 174 118 156" stroke-width="5"/>
+    <path d="M162 198 C154 180 170 172 162 154" stroke-width="4"/>
+  </g>
+  <g>
+<ellipse cx="142" cy="268" rx="100" ry="66" fill="#000" opacity="0.25"/>
+<path d="M50 250 q92 112 184 0 q-8 74 -92 74 q-84 0 -92 -74z" fill="#e9e2d6"/>
+<ellipse cx="142" cy="250" rx="92" ry="46" fill="#f6f1e8"/>
+<path d="M78 248 q10 -34 64 -34 q54 0 64 34 q-10 30 -64 30 q-54 0 -64 -30z" fill="#fffdf9"/>
+<ellipse cx="120" cy="230" rx="40" ry="14" fill="#fff" opacity="0.75"/>
+<path d="M96 236 q18 16 44 10 q26 -6 48 8 q-6 16 -46 16 q-36 0 -46 -34z" fill="#c07b2a" opacity="0.9"/>
+<path d="M96 236 q44 18 92 8" fill="none" stroke="#8f5416" stroke-width="3" opacity="0.55"/>
+<rect x="118" y="226" width="20" height="5" rx="2.5" fill="#e9c46a" transform="rotate(-20 118 226)"/>
+<rect x="146" y="222" width="20" height="5" rx="2.5" fill="#e9c46a" transform="rotate(12 146 222)"/>
+<rect x="166" y="234" width="20" height="5" rx="2.5" fill="#e9c46a" transform="rotate(30 166 234)"/>
+  </g>
+  <rect width="284" height="400" fill="url(#vig)"/>
+</svg>
