@@ -123,3 +123,59 @@ body.theme-vibrant .card .price { color: #ffe000; }
 body.theme-vibrant .card .description { color: #c9c9c9; }
 body.theme-vibrant .owl-item img { filter: contrast(1.12) saturate(1.18); }
 body.theme-vibrant .section-heading h6 { color: #ffe000; }
+
+/* Contrast guardrails: the base template uses dark grey body text, which
+   disappears on the formal/vibrant backgrounds. Make every readable surface
+   pass visual review; pick semantic accents, not opacity tricks. */
+body.theme-formal p,
+body.theme-formal li,
+body.theme-formal .description,
+body.theme-formal .card .description,
+body.theme-formal .section-heading p,
+body.theme-formal footer .left-text-content p,
+body.theme-formal footer .right-text-content p,
+body.theme-formal #reservation p { color: #f0ece3 !important; font-size: 16px; line-height: 1.55; }
+body.theme-formal .card .title,
+body.theme-formal .card .price { color: #d7bf8a !important; }
+body.theme-formal #top .left-content h4,
+body.theme-formal #top .left-content h6 { color: #ffffff !important; }
+body.theme-formal .header-area .nav li a { color: #f5f0e8 !important; }
+body.theme-formal .header-area .nav li a:hover { color: #c8a96b !important; }
+body.theme-formal .header-area { border-bottom: 1px solid #3a352f; }
+body.theme-formal .main-banner { background: #2a2622 !important; }
+body.theme-formal .main-banner h4,
+body.theme-formal .main-banner h6 { color: #ffffff !important; }
+
+body.theme-vibrant p,
+body.theme-vibrant li,
+body.theme-vibrant .description,
+body.theme-vibrant .card .description,
+body.theme-vibrant .section-heading p,
+body.theme-vibrant footer .left-text-content p,
+body.theme-vibrant footer .right-text-content p,
+body.theme-vibrant #reservation p { color: #f2f2f2 !important; font-size: 16px; line-height: 1.55; }
+body.theme-vibrant h4,
+body.theme-vibrant h5,
+body.theme-vibrant h6 { color: #ffffff !important; }
+body.theme-vibrant .section-heading h6,
+body.theme-vibrant .section-heading h6 a { color: #ffe000 !important; }
+body.theme-vibrant #top .left-content h4,
+body.theme-vibrant #top .left-content h6 { color: #ffffff !important; text-shadow: 0 2px 16px rgba(0,0,0,.45); }
+body.theme-vibrant .header-area .nav li a { color: #ffffff !important; }
+body.theme-vibrant .header-area .nav li a:hover { color: #ffe000 !important; }
+body.theme-vibrant .header-area { border-bottom: 1px solid #2a2a2a; }
+body.theme-vibrant .main-banner { background: #181818 !important; }
+body.theme-vibrant .card .title,
+body.theme-vibrant .card .price { color: #ffe000 !important; }
+
+body.theme-casual p,
+body.theme-casual li,
+body.theme-casual .description,
+body.theme-casual .card .description,
+body.theme-casual .section-heading p,
+body.theme-casual footer .left-text-content p,
+body.theme-casual footer .right-text-content p,
+body.theme-casual #reservation p { color: #3a2f28 !important; font-size: 16px; line-height: 1.55; }
+body.theme-casual #top .left-content h4,
+body.theme-casual #top .left-content h6 { color: #3e2f24 !important; text-shadow: none; }
+body.theme-casual .main-banner { background: #f0e4d4 !important; }
