@@ -1,0 +1,125 @@
+/* Automatic theme layer for restaurants.
+   Body class: formal | casual | vibrant. */
+
+/* -------------------------------------------- */
+/* FORMAL: polished dining / business occasions */
+/* -------------------------------------------- */
+body.theme-formal {
+  background: #161412;
+  color: #f5f0e8;
+  font-family: Georgia, "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+}
+body.theme-formal .site-footer,
+body.theme-formal .section-header,
+body.theme-formal .header-area { background: #11100f; }
+body.theme-formal h1,
+body.theme-formal h2,
+body.theme-formal h3,
+body.theme-formal h4,
+body.theme-formal h5,
+body.theme-formal h6 {
+  color: #f5f0e8;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+body.theme-formal .main-banner h4,
+body.theme-formal .main-white-button a {
+  color: #000;
+  background: #c8a96b;
+  border-color: #c8a96b;
+}
+body.theme-formal .main-banner .button a { background: transparent; color: #c8a96b; border-color: #c8a96b; }
+body.theme-formal a { color: #d7bf8a; }
+body.theme-formal .navbar-brand,
+body.theme-formal .header-area .nav li a,
+body.theme-formal .header-area .nav li a:hover,
+body.theme-formal .heading-tabs .tabs-menu-button { color: #f5f0e8; }
+body.theme-formal .box-text,
+body.theme-formal .meal-class-text { background: #1e1b19; }
+body.theme-formal .owl-carousel { filter: saturate(.82) contrast(1.05); }
+body.theme-formal .card,
+body.theme-formal .main-banner,
+body.theme-formal .section { background: #1e1b19 !important; box-shadow: none; border-color: #3a352f; }
+body.theme-formal .main-white-button a { border-bottom: 0; }
+
+/* -------------------------------------------- */
+/* CASUAL: relaxed neighbourhood independents  */
+/* -------------------------------------------- */
+body.theme-casual {
+  background: #f6efe4;
+  color: #2d241e;
+  font-family: Georgia, "Times New Roman", serif;
+}
+body.theme-casual .header-area,
+body.theme-casual .site-footer { background: #eee4d6; }
+body.theme-casual h1,
+body.theme-casual h2,
+body.theme-casual h3 {
+  color: #3e2f24;
+  font-weight: 500;
+  letter-spacing: .005em;
+}
+body.theme-casual .main-white-button a,
+body.theme-casual .contact-form button {
+  background: #c95e34;
+  color: #fff;
+  border-color: #c95e34;
+  border-radius: 12px;
+}
+body.theme-casual .main-white-button a:hover { background: #a94a27; border-color: #a94a27; }
+body.theme-casual a { color: #9b492a; }
+body.theme-casual .navbar-brand,
+body.theme-casual .header-area .nav li a { color: #3c2c23; }
+body.theme-casual .card,
+body.theme-casual .section { background: #fffdf7 !important; box-shadow: 0 4px 24px rgba(0,0,0,.05); }
+body.theme-casual .heading-tabs .tabs-menu-button.active,
+body.theme-casual .heading-tabs .tabs-menu-button:hover { color: #c95e34; }
+body.theme-casual .owl-item img { border-radius: 12px; }
+
+/* -------------------------------------------- */
+/* VIBRANT: newer/youthful bold aesthetic       */
+/* -------------------------------------------- */
+body.theme-vibrant {
+  background: #0d0d0d;
+  color: #fafafa;
+  font-family: "Poppins", "PingFang HK", sans-serif;
+  font-weight: 500;
+}
+body.theme-vibrant .header-area,
+body.theme-vibrant .site-footer { background: #0d0d0d; }
+body.theme-vibrant h1,
+body.theme-vibrant h2,
+body.theme-vibrant h3 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  text-transform: none;
+}
+body.theme-vibrant h6,
+body.theme-vibrant .subtitle,
+body.theme-vibrant .kicker { color: #ffe000; letter-spacing: .14em; text-transform: uppercase; font-weight: 800; }
+body.theme-vibrant a { color: #ffe000; }
+body.theme-vibrant .main-white-button a,
+body.theme-vibrant .contact-form button {
+  background: #ffe000;
+  color: #111;
+  border-color: #ffe000;
+  border-radius: 999px;
+  font-weight: 800;
+  letter-spacing: .02em;
+}
+body.theme-vibrant .main-white-button a:hover { background: #fff04d; }
+body.theme-vibrant .header-area .nav li a,
+body.theme-vibrant .navbar-brand { color: #ffffff; }
+body.theme-vibrant .header-area .nav li a:hover { color: #ffe000; }
+body.theme-vibrant .card,
+body.theme-vibrant .section { background: #171717 !important; border: 1px solid #2a2a2a; box-shadow: none; }
+body.theme-vibrant .card .title,
+body.theme-vibrant .card .price { color: #ffe000; }
+body.theme-vibrant .card .description { color: #c9c9c9; }
+body.theme-vibrant .owl-item img { filter: contrast(1.12) saturate(1.18); }
+body.theme-vibrant .section-heading h6 { color: #ffe000; }

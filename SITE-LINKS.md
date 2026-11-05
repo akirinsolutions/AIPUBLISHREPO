@@ -28,3 +28,4 @@ Catalog: https://akirinsolutions.github.io/AIPUBLISHREPO/
 | wendycharlottemakeup | https://akirinsolutions.github.io/AIPUBLISHREPO/wendycharlottemakeup/ |
 | zankihair | https://akirinsolutions.github.io/AIPUBLISHREPO/zankihair/ |
 | quickshinecleaning (demo) | https://akirinsolutions.github.io/AIPUBLISHREPO/quickshinecleaning/ |
+| blackcoffeehk (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/blackcoffeehk/ |
