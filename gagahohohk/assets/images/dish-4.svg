@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 400" width="284" height="400" role="img" aria-label="Half roast goose, sliced">
+
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#3d3129"/>
+      <stop offset="0.55" stop-color="#271d18"/>
+      <stop offset="1" stop-color="#140f0c"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53392a"/>
+      <stop offset="1" stop-color="#241610"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="65%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="284" height="400" fill="url(#bg)"/>
+  <path d="M0 296 L284 276 L284 400 L0 400 Z" fill="url(#table)"/>
+  <ellipse cx="142" cy="336" rx="150" ry="66" fill="#000" opacity="0.22"/>
+
+  <g>
+    <ellipse cx="142" cy="268" rx="114" ry="76" fill="#000" opacity="0.26"/>
+    <ellipse cx="142" cy="260" rx="114" ry="76" fill="#f0e2d0"/>
+    <ellipse cx="142" cy="260" rx="96" ry="61" fill="#dfc8ae"/>
+    <ellipse cx="118" cy="238" rx="54" ry="26" fill="url(#shine)" opacity="0.7"/>
+  </g>
+  <g>
+<ellipse cx="142" cy="272" rx="80" ry="34" fill="#3d140c" opacity="0.8"/>
+<ellipse cx="130" cy="266" rx="34" ry="14" fill="#6b2414" opacity="0.55"/>
+<g transform="translate(102 264) rotate(-24)"><rect x="-38" y="-15" width="76" height="30" rx="12" fill="#6f2a18"/><rect x="-38" y="-15" width="76" height="11" rx="5" fill="#a8492a"/><rect x="-38" y="-15" width="76" height="4.5" rx="2.2" fill="#e08a56" opacity="0.9"/><rect x="-30" y="-9" width="44" height="3" rx="1.5" fill="#fff" opacity="0.16"/></g>
+<g transform="translate(120 254) rotate(-13)"><rect x="-38" y="-15" width="76" height="30" rx="12" fill="#6f2a18"/><rect x="-38" y="-15" width="76" height="11" rx="5" fill="#a8492a"/><rect x="-38" y="-15" width="76" height="4.5" rx="2.2" fill="#e08a56" opacity="0.9"/><rect x="-30" y="-9" width="44" height="3" rx="1.5" fill="#fff" opacity="0.16"/></g>
+<g transform="translate(139 246) rotate(-2)"><rect x="-38" y="-15" width="76" height="30" rx="12" fill="#6f2a18"/><rect x="-38" y="-15" width="76" height="11" rx="5" fill="#a8492a"/><rect x="-38" y="-15" width="76" height="4.5" rx="2.2" fill="#e08a56" opacity="0.9"/><rect x="-30" y="-9" width="44" height="3" rx="1.5" fill="#fff" opacity="0.16"/></g>
+<g transform="translate(158 252) rotate(9)"><rect x="-38" y="-15" width="76" height="30" rx="12" fill="#6f2a18"/><rect x="-38" y="-15" width="76" height="11" rx="5" fill="#a8492a"/><rect x="-38" y="-15" width="76" height="4.5" rx="2.2" fill="#e08a56" opacity="0.9"/><rect x="-30" y="-9" width="44" height="3" rx="1.5" fill="#fff" opacity="0.16"/></g>
+<g transform="translate(177 262) rotate(20)"><rect x="-38" y="-15" width="76" height="30" rx="12" fill="#6f2a18"/><rect x="-38" y="-15" width="76" height="11" rx="5" fill="#a8492a"/><rect x="-38" y="-15" width="76" height="4.5" rx="2.2" fill="#e08a56" opacity="0.9"/><rect x="-30" y="-9" width="44" height="3" rx="1.5" fill="#fff" opacity="0.16"/></g>
+<g transform="translate(196 274) rotate(30)"><rect x="-38" y="-15" width="76" height="30" rx="12" fill="#6f2a18"/><rect x="-38" y="-15" width="76" height="11" rx="5" fill="#a8492a"/><rect x="-38" y="-15" width="76" height="4.5" rx="2.2" fill="#e08a56" opacity="0.9"/><rect x="-30" y="-9" width="44" height="3" rx="1.5" fill="#fff" opacity="0.16"/></g>
+<path d="M96 290 q46 16 92 0" fill="none" stroke="#1f0a06" stroke-width="4" opacity="0.6" stroke-linecap="round"/>
+<g transform="translate(102 278) rotate(-58)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#8fae5c" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#8fae5c" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#8fae5c" opacity="0.71"/></g>
+<g transform="translate(188 280) rotate(58)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#8fae5c" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#8fae5c" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#8fae5c" opacity="0.71"/></g>
+  </g>
+  <rect width="284" height="400" fill="url(#vig)"/>
+</svg>

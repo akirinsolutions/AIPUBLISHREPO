@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 400" width="284" height="400" role="img" aria-label="Claypot cucumber with chilli">
+
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#3d3129"/>
+      <stop offset="0.55" stop-color="#271d18"/>
+      <stop offset="1" stop-color="#140f0c"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53392a"/>
+      <stop offset="1" stop-color="#241610"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="65%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="284" height="400" fill="url(#bg)"/>
+  <path d="M0 296 L284 276 L284 400 L0 400 Z" fill="url(#table)"/>
+  <ellipse cx="142" cy="336" rx="150" ry="66" fill="#000" opacity="0.22"/>
+
+  <g fill="none" stroke="#fff" stroke-linecap="round" opacity="0.13">
+    <path d="M120 184 C110 162 130 152 120 130" stroke-width="6"/>
+    <path d="M164 188 C154 166 174 156 164 134" stroke-width="5"/>
+  </g>
+  <g>
+    <ellipse cx="142" cy="268" rx="98" ry="74" fill="#000" opacity="0.28"/>
+    <path d="M44 238 q-18 12 0 26" fill="none" stroke="#5d3322" stroke-width="11" stroke-linecap="round"/>
+    <path d="M240 238 q18 12 0 26" fill="none" stroke="#5d3322" stroke-width="11" stroke-linecap="round"/>
+    <ellipse cx="142" cy="262" rx="97" ry="72" fill="#6d3b27"/>
+    <ellipse cx="142" cy="258" rx="97" ry="70" fill="#7d452d"/>
+    <ellipse cx="120" cy="240" rx="52" ry="34" fill="url(#shine)"/>
+    <ellipse cx="142" cy="213" rx="97" ry="27" fill="#8f4d31"/>
+    <ellipse cx="142" cy="212" rx="84" ry="20" fill="#2c1911"/>
+    <ellipse cx="142" cy="211" rx="76" ry="15" fill="#3a2116"/>
+    <g transform="translate(112 208) rotate(-18)"><rect x="-16" y="-11" width="32" height="22" rx="9" fill="#5f8f3f"/><rect x="-16" y="-11" width="32" height="7" rx="3.5" fill="#8db95c"/><circle cx="-4" cy="2" r="2.4" fill="#dfeccb" opacity="0.8"/><circle cx="5" cy="-1" r="1.8" fill="#dfeccb" opacity="0.7"/></g>
+<g transform="translate(140 202) rotate(8)"><rect x="-16" y="-11" width="32" height="22" rx="9" fill="#5f8f3f"/><rect x="-16" y="-11" width="32" height="7" rx="3.5" fill="#8db95c"/><circle cx="-4" cy="2" r="2.4" fill="#dfeccb" opacity="0.8"/><circle cx="5" cy="-1" r="1.8" fill="#dfeccb" opacity="0.7"/></g>
+<g transform="translate(168 208) rotate(22)"><rect x="-16" y="-11" width="32" height="22" rx="9" fill="#5f8f3f"/><rect x="-16" y="-11" width="32" height="7" rx="3.5" fill="#8db95c"/><circle cx="-4" cy="2" r="2.4" fill="#dfeccb" opacity="0.8"/><circle cx="5" cy="-1" r="1.8" fill="#dfeccb" opacity="0.7"/></g>
+<g transform="translate(100 222) rotate(12)"><rect x="-16" y="-11" width="32" height="22" rx="9" fill="#5f8f3f"/><rect x="-16" y="-11" width="32" height="7" rx="3.5" fill="#8db95c"/><circle cx="-4" cy="2" r="2.4" fill="#dfeccb" opacity="0.8"/><circle cx="5" cy="-1" r="1.8" fill="#dfeccb" opacity="0.7"/></g>
+<g transform="translate(130 224) rotate(-6)"><rect x="-16" y="-11" width="32" height="22" rx="9" fill="#5f8f3f"/><rect x="-16" y="-11" width="32" height="7" rx="3.5" fill="#8db95c"/><circle cx="-4" cy="2" r="2.4" fill="#dfeccb" opacity="0.8"/><circle cx="5" cy="-1" r="1.8" fill="#dfeccb" opacity="0.7"/></g>
+<g transform="translate(158 226) rotate(30)"><rect x="-16" y="-11" width="32" height="22" rx="9" fill="#5f8f3f"/><rect x="-16" y="-11" width="32" height="7" rx="3.5" fill="#8db95c"/><circle cx="-4" cy="2" r="2.4" fill="#dfeccb" opacity="0.8"/><circle cx="5" cy="-1" r="1.8" fill="#dfeccb" opacity="0.7"/></g>
+<g transform="translate(186 220) rotate(-14)"><rect x="-16" y="-11" width="32" height="22" rx="9" fill="#5f8f3f"/><rect x="-16" y="-11" width="32" height="7" rx="3.5" fill="#8db95c"/><circle cx="-4" cy="2" r="2.4" fill="#dfeccb" opacity="0.8"/><circle cx="5" cy="-1" r="1.8" fill="#dfeccb" opacity="0.7"/></g>
+<g transform="translate(120 230) rotate(-6)"><path d="M-16 0 q16 -12 32 0 q-16 10 -32 0z" fill="#c8281f"/><path d="M-16 0 q16 -12 32 0" fill="none" stroke="#e8543f" stroke-width="2" opacity="0.7"/></g>
+<g transform="translate(172 232) rotate(12)"><path d="M-16 0 q16 -12 32 0 q-16 10 -32 0z" fill="#c8281f"/><path d="M-16 0 q16 -12 32 0" fill="none" stroke="#e8543f" stroke-width="2" opacity="0.7"/></g>
+<g transform="translate(146 204) rotate(-10)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#79a447" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#79a447" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#79a447" opacity="0.71"/></g>
+  </g>
+  <rect width="284" height="400" fill="url(#vig)"/>
+</svg>

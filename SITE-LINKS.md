@@ -29,3 +29,4 @@ Catalog: https://akirinsolutions.github.io/AIPUBLISHREPO/
 | zankihair | https://akirinsolutions.github.io/AIPUBLISHREPO/zankihair/ |
 | quickshinecleaning (demo) | https://akirinsolutions.github.io/AIPUBLISHREPO/quickshinecleaning/ |
 | blackcoffeehk (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/blackcoffeehk/ |
+| gagahohohk (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/gagahohohk/ |

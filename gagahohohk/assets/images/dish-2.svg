@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 400" width="284" height="400" role="img" aria-label="Soy-sauce chicken, chopped">
+
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#3d3129"/>
+      <stop offset="0.55" stop-color="#271d18"/>
+      <stop offset="1" stop-color="#140f0c"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53392a"/>
+      <stop offset="1" stop-color="#241610"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="35%" cy="30%" r="65%">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <rect width="284" height="400" fill="url(#bg)"/>
+  <path d="M0 296 L284 276 L284 400 L0 400 Z" fill="url(#table)"/>
+  <ellipse cx="142" cy="336" rx="150" ry="66" fill="#000" opacity="0.22"/>
+
+  <g>
+    <ellipse cx="142" cy="268" rx="114" ry="76" fill="#000" opacity="0.26"/>
+    <ellipse cx="142" cy="260" rx="114" ry="76" fill="#efe4d6"/>
+    <ellipse cx="142" cy="260" rx="96" ry="61" fill="#e0cdb9"/>
+    <ellipse cx="118" cy="238" rx="54" ry="26" fill="url(#shine)" opacity="0.7"/>
+  </g>
+  <g>
+<g transform="translate(112 240) rotate(-18)"><rect x="-23.0" y="-12.0" width="46" height="24" rx="10.0" fill="#a86433"/><rect x="-23.0" y="-12.0" width="46" height="11.4" rx="6.0" fill="#d99a55"/><rect x="-19.0" y="-10.0" width="36" height="3" rx="1.5" fill="#fff" opacity="0.3"/><path d="M-17.0 6.0 q15.333333333333334 -6 20.909090909090907 0" fill="none" stroke="#4a1f0c" stroke-width="2" opacity="0.35"/></g>
+<g transform="translate(150 234) rotate(8)"><rect x="-22.0" y="-12.0" width="44" height="24" rx="10.0" fill="#8f4a24"/><rect x="-22.0" y="-12.0" width="44" height="11.4" rx="6.0" fill="#d99a55"/><rect x="-18.0" y="-10.0" width="34" height="3" rx="1.5" fill="#fff" opacity="0.3"/><path d="M-16.0 6.0 q14.666666666666666 -6 20.0 0" fill="none" stroke="#4a1f0c" stroke-width="2" opacity="0.35"/></g>
+<g transform="translate(176 246) rotate(20)"><rect x="-21.0" y="-11.0" width="42" height="22" rx="9.2" fill="#a05a2c"/><rect x="-21.0" y="-11.0" width="42" height="10.5" rx="5.5" fill="#d99a55"/><rect x="-17.0" y="-9.0" width="32" height="3" rx="1.5" fill="#fff" opacity="0.3"/><path d="M-15.0 5.5 q14.0 -6 19.09090909090909 0" fill="none" stroke="#4a1f0c" stroke-width="2" opacity="0.35"/></g>
+<g transform="translate(126 258) rotate(4)"><rect x="-23.0" y="-12.0" width="46" height="24" rx="10.0" fill="#7d3d1c"/><rect x="-23.0" y="-12.0" width="46" height="11.4" rx="6.0" fill="#d99a55"/><rect x="-19.0" y="-10.0" width="36" height="3" rx="1.5" fill="#fff" opacity="0.3"/><path d="M-17.0 6.0 q15.333333333333334 -6 20.909090909090907 0" fill="none" stroke="#4a1f0c" stroke-width="2" opacity="0.35"/></g>
+<g transform="translate(162 262) rotate(-10)"><rect x="-22.0" y="-11.0" width="44" height="22" rx="9.2" fill="#96522a"/><rect x="-22.0" y="-11.0" width="44" height="10.5" rx="5.5" fill="#d99a55"/><rect x="-18.0" y="-9.0" width="34" height="3" rx="1.5" fill="#fff" opacity="0.3"/><path d="M-16.0 5.5 q14.666666666666666 -6 20.0 0" fill="none" stroke="#4a1f0c" stroke-width="2" opacity="0.35"/></g>
+<g transform="translate(100 262) rotate(14)"><rect x="-20.0" y="-11.0" width="40" height="22" rx="9.2" fill="#a86433"/><rect x="-20.0" y="-11.0" width="40" height="10.5" rx="5.5" fill="#d99a55"/><rect x="-16.0" y="-9.0" width="30" height="3" rx="1.5" fill="#fff" opacity="0.3"/><path d="M-14.0 5.5 q13.333333333333334 -6 18.18181818181818 0" fill="none" stroke="#4a1f0c" stroke-width="2" opacity="0.35"/></g>
+<g transform="translate(142 246) rotate(-4)"><rect x="-21.0" y="-11.0" width="42" height="22" rx="9.2" fill="#b07040"/><rect x="-21.0" y="-11.0" width="42" height="10.5" rx="5.5" fill="#d99a55"/><rect x="-17.0" y="-9.0" width="32" height="3" rx="1.5" fill="#fff" opacity="0.3"/><path d="M-15.0 5.5 q14.0 -6 19.09090909090909 0" fill="none" stroke="#4a1f0c" stroke-width="2" opacity="0.35"/></g>
+<ellipse cx="196" cy="292" rx="24" ry="12" fill="#e8dcc7"/>
+<ellipse cx="196" cy="290" rx="18" ry="8" fill="#4f7a34"/>
+<g transform="translate(116 220) rotate(-14)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#79a447" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#79a447" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#79a447" opacity="0.71"/></g>
+<g transform="translate(166 218) rotate(12)"><rect x="0" y="-16" width="4" height="32" rx="2" fill="#79a447" opacity="0.95"/><rect x="3" y="-12" width="4" height="32" rx="2" fill="#79a447" opacity="0.83"/><rect x="6" y="-8" width="4" height="32" rx="2" fill="#79a447" opacity="0.71"/></g>
+<circle cx="132" cy="276" r="2" fill="#f6ead2" opacity="0.9"/>
+<circle cx="156" cy="280" r="2" fill="#f6ead2" opacity="0.9"/>
+<circle cx="178" cy="272" r="2" fill="#f6ead2" opacity="0.9"/>
+<circle cx="120" cy="250" r="2" fill="#f6ead2" opacity="0.9"/>
+  </g>
+  <rect width="284" height="400" fill="url(#vig)"/>
+</svg>
