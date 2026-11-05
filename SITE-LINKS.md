@@ -30,3 +30,4 @@ Catalog: https://akirinsolutions.github.io/AIPUBLISHREPO/
 | quickshinecleaning (demo) | https://akirinsolutions.github.io/AIPUBLISHREPO/quickshinecleaning/ |
 | blackcoffeehk (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/blackcoffeehk/ |
 | gagahohohk (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/gagahohohk/ |
+| hansungkorean (unofficial preview) | https://akirinsolutions.github.io/AIPUBLISHREPO/hansungkorean/ |
